@@ -1,0 +1,6 @@
+edge-tts
+requests
+beautifulsoup4
+lxml
+python-dotenv
+boto3
