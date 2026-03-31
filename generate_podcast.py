@@ -121,6 +121,13 @@ def fetch_news_from_web(target_date: str) -> str | None:
     try:
         resp = requests.get(url, timeout=30)
         resp.raise_for_status()
+    except requests.HTTPError as e:
+        status_code = e.response.status_code if e.response else None
+        if status_code == 404:
+            log.info("Article for %s not published yet (404), skipping this run", target_date)
+            return None
+        log.warning("Article page fetch failed: %s", e)
+        return None
     except requests.RequestException as e:
         log.warning("Article page fetch failed: %s", e)
         return None
@@ -139,8 +146,8 @@ def html_to_text(html: str) -> str:
     return text.strip()
 
 
-def get_today_news(date_str: str | None = None) -> str:
-    """Fetch and return today's news as plain text."""
+def get_today_news(date_str: str | None = None) -> str | None:
+    """Fetch and return today's news as plain text, or None if not ready."""
     tz_cn = timezone(timedelta(hours=8))
     if date_str:
         target = date_str
@@ -151,13 +158,13 @@ def get_today_news(date_str: str | None = None) -> str:
     if not html:
         html = fetch_news_from_web(target)
     if not html:
-        log.error("Could not fetch news for %s", target)
-        sys.exit(1)
+        log.info("No publish-ready news found for %s, skipping this run", target)
+        return None
 
     text = html_to_text(html)
     if len(text) < 200:
-        log.error("Fetched content too short (%d chars), aborting", len(text))
-        sys.exit(1)
+        log.info("Fetched content too short (%d chars), skipping this run", len(text))
+        return None
 
     log.info("Fetched %d chars of news content", len(text))
     return text
@@ -315,6 +322,30 @@ def get_mp3_duration_estimate(file_path: Path) -> int:
     return int(size_bytes / (48_000 / 8))
 
 
+def episode_exists_in_rss(rss_dir: Path, episode_date: str) -> bool:
+    """Check whether today's episode is already present in podcast.xml."""
+    rss_path = rss_dir / "podcast.xml"
+    if not rss_path.exists():
+        return False
+
+    try:
+        tree = ET.parse(rss_path)
+    except ET.ParseError as e:
+        log.warning("Failed to parse RSS (%s), continue processing: %s", rss_path, e)
+        return False
+
+    root = tree.getroot()
+    channel = root.find("channel")
+    if channel is None:
+        return False
+
+    episode_guid = f"supertechfans-{episode_date}"
+    for item in channel.findall("item"):
+        if item.findtext("guid", "") == episode_guid:
+            return True
+    return False
+
+
 def update_podcast_rss(
     episode_date: str,
     episode_title: str,
@@ -430,7 +461,26 @@ def push_to_github(rss_dir: Path, episode_date: str) -> None:
         log.warning("GITHUB_PAGES_REPO not configured, skipping push")
         return
 
+    status = subprocess.run(
+        ["git", "status", "--porcelain", "podcast.xml"],
+        cwd=rss_dir, capture_output=True, text=True,
+    )
+    if not status.stdout.strip():
+        log.info("podcast.xml has no changes, skipping git commit/push")
+        return
+
     try:
+        # In CI environments there may be no git identity configured.
+        if os.getenv("GITHUB_ACTIONS") == "true":
+            subprocess.run(
+                ["git", "config", "user.name", os.getenv("GIT_USER_NAME", "github-actions[bot]")],
+                cwd=rss_dir, check=True, capture_output=True,
+            )
+            subprocess.run(
+                ["git", "config", "user.email", os.getenv("GIT_USER_EMAIL", "github-actions[bot]@users.noreply.github.com")],
+                cwd=rss_dir, check=True, capture_output=True,
+            )
+
         subprocess.run(
             ["git", "add", "podcast.xml"],
             cwd=rss_dir, check=True, capture_output=True,
@@ -439,13 +489,30 @@ def push_to_github(rss_dir: Path, episode_date: str) -> None:
             ["git", "commit", "-m", f"Add episode {episode_date}"],
             cwd=rss_dir, check=True, capture_output=True,
         )
-        subprocess.run(
-            ["git", "push"],
-            cwd=rss_dir, check=True, capture_output=True,
-        )
+
+        gh_token = os.getenv("GH_TOKEN", "").strip()
+        if gh_token:
+            branch = subprocess.run(
+                ["git", "rev-parse", "--abbrev-ref", "HEAD"],
+                cwd=rss_dir, check=True, capture_output=True, text=True,
+            ).stdout.strip() or "main"
+            push_url = f"https://x-access-token:{gh_token}@github.com/{repo}.git"
+            subprocess.run(
+                ["git", "push", push_url, f"HEAD:{branch}"],
+                cwd=rss_dir, check=True, capture_output=True,
+            )
+        else:
+            subprocess.run(
+                ["git", "push"],
+                cwd=rss_dir, check=True, capture_output=True,
+            )
         log.info("Pushed RSS update to GitHub")
     except subprocess.CalledProcessError as e:
-        log.error("Git push failed: %s", e.stderr.decode()[-300:] if e.stderr else str(e))
+        if isinstance(e.stderr, bytes):
+            err_msg = e.stderr.decode(errors="ignore")
+        else:
+            err_msg = e.stderr or str(e)
+        log.error("Git push failed: %s", err_msg[-300:])
 
 
 # ---------------------------------------------------------------------------
@@ -457,12 +524,19 @@ def main():
 
     tz_cn = timezone(timedelta(hours=8))
     today = date_str or datetime.now(tz_cn).strftime("%Y-%m-%d")
+    rss_dir = BASE_DIR / "rss"
+    rss_dir.mkdir(exist_ok=True)
 
     podcasts_dir = BASE_DIR / "podcasts"
     podcasts_dir.mkdir(exist_ok=True)
 
     output_mp3 = podcasts_dir / f"{today}.mp3"
     output_script = podcasts_dir / f"{today}.txt"
+
+    if episode_exists_in_rss(rss_dir, today):
+        log.info("Episode %s already exists in RSS, skipping", today)
+        print(f"Already processed: {today}")
+        return
 
     if output_mp3.exists():
         log.info("Podcast already exists: %s", output_mp3)
@@ -473,6 +547,9 @@ def main():
 
     # 1. Fetch news
     news_text = get_today_news(date_str)
+    if not news_text:
+        print(f"No publish-ready article for {today}, skipped.")
+        return
 
     # 2. Generate script
     script = generate_script(news_text)
@@ -488,9 +565,6 @@ def main():
 
     # 5. Update RSS (if R2 upload succeeded)
     if audio_url:
-        rss_dir = BASE_DIR / "rss"
-        rss_dir.mkdir(exist_ok=True)
-
         episode_title = f"HackerNews 八分日报 {today}"
         update_podcast_rss(
             episode_date=today,
