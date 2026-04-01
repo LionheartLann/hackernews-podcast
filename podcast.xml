@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>超级科技迷·八分日报</title>
+    <link>https://supertechfans.com/cn/</link>
+    <language>zh-cn</language>
+    <description>每天8分钟，用梁文道《八分》的风格聊聊 HackerNews 上最有意思的科技文化话题。AI 生成，人文视角。</description>
+    <atom:link href="https://LionheartLann.github.io/hackernews-podcast/podcast.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Apr 2026 08:00:48 +0800</lastBuildDate>
+    <itunes:author>SuperTechFans</itunes:author>
+    <itunes:summary>每天8分钟，用梁文道《八分》的风格聊聊 HackerNews 上最有意思的科技文化话题。AI 生成，人文视角。</itunes:summary>
+    <itunes:owner>
+      <itunes:name>SuperTechFans</itunes:name>
+      <itunes:email>hello@supertechfans.com</itunes:email>
+    </itunes:owner>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <itunes:category text="Technology" />
+    <itunes:image href="https://supertechfans.com/favicon.png" />
+    <item>
+      <title>HackerNews 八分日报 2026-03-26</title>
+      <link>https://pub-ad7b31b679344334b4391d5a9452db68.r2.dev/episodes/2026-03-26.mp3</link>
+      <description>&lt;p&gt;今天翻 Hacker News，我看到一条消息特别有意思——OpenAI 的 Sora 要关了。就是那个去年刚发布的时候，全世界都在转发的 AI 视频生成工具。上线不到一年半，说停就停。有个用户的评论特别真实，他说刚出来那两周，他跟妈妈一起玩，做了一百多个视频，笑得不行，但两周之后呢？就再也没打开过。新鲜感过了，没有任何东西能把他拉回来。他说，这才是 Sora 真正的败笔。  你看，这个故事其实特别值得玩味。我们这个时代有一种很奇怪的节奏感——一个东西出来的时候，所有人都在谈论它，觉得世界要变了；然后很快，所有人就忘了它，去追下一个。Sora 不是第一个，也不会是最后一个。但它的消亡速度之快，...&lt;/p&gt;&lt;p&gt;&lt;a href="https://pub-ad7b31b679344334b4391d5a9452db68.r2.dev/episodes/2026-03-26.mp3"&gt;收听音频 (MP3)&lt;/a&gt;&lt;/p&gt;</description>
+      <pubDate>Thu, 26 Mar 2026 09:00:00 +0800</pubDate>
+      <guid isPermaLink="false">supertechfans-2026-03-26</guid>
+      <enclosure url="https://pub-ad7b31b679344334b4391d5a9452db68.r2.dev/episodes/2026-03-26.mp3" length="2659968" type="audio/mpeg" />
+      <itunes:duration>7:23</itunes:duration>
+      <itunes:summary>今天翻 Hacker News，我看到一条消息特别有意思——OpenAI 的 Sora 要关了。就是那个去年刚发布的时候，全世界都在转发的 AI 视频生成工具。上线不到一年半，说停就停。有个用户的评论特别真实，他说刚出来那两周，他跟妈妈一起玩，做了一百多个视频，笑得不行，但两周之后呢？就再也没打开过。新鲜感过了，没有任何东西能把他拉回来。他说，这才是 Sora 真正的败笔。  你看，这个故事其实特别值得玩味。我们这个时代有一种很奇怪的节奏感——一个东西出来的时候，所有人都在谈论它，觉得世界要变了；然后很快，所有人就忘了它，去追下一个。Sora 不是第一个，也不会是最后一个。但它的消亡速度之快，...</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>HackerNews 八分日报 2026-03-10</title>
+      <link>https://pub-ad7b31b679344334b4391d5a9452db68.r2.dev/episodes/2026-03-10.mp3</link>
+      <description>&lt;p&gt;今天想聊一个贯穿好几条新闻的暗线——"合法"和"正当"之间，到底隔着多远的距离。  先从一个听起来很不起眼的法律判决说起。美国第九巡回上诉法院这周做了一个裁决：企业可以通过电子邮件更新服务条款，而用户继续使用服务就等于同意了新条款。具体案情是一家做蓝牙追踪器的公司 Tile，有人用他们的产品去跟踪别人，受害者要起诉，结果公司说，你看，我们在 2023 年 10 月给你发过邮件，更新了服务条款，里面写了所有争议都要通过仲裁解决，你之后还继续用了我们的 App，那就算你同意了。法院居然支持了这个说法。  你想想这意味着什么。评论区有个人写了一段话特别精彩，他说，允许企业单方面强制执行任意的服务条款...&lt;/p&gt;&lt;p&gt;&lt;a href="https://pub-ad7b31b679344334b4391d5a9452db68.r2.dev/episodes/2026-03-10.mp3"&gt;收听音频 (MP3)&lt;/a&gt;&lt;/p&gt;</description>
+      <pubDate>Tue, 10 Mar 2026 09:00:00 +0800</pubDate>
+      <guid isPermaLink="false">supertechfans-2026-03-10</guid>
+      <enclosure url="https://pub-ad7b31b679344334b4391d5a9452db68.r2.dev/episodes/2026-03-10.mp3" length="3073392" type="audio/mpeg" />
+      <itunes:duration>8:32</itunes:duration>
+      <itunes:summary>今天想聊一个贯穿好几条新闻的暗线——"合法"和"正当"之间，到底隔着多远的距离。  先从一个听起来很不起眼的法律判决说起。美国第九巡回上诉法院这周做了一个裁决：企业可以通过电子邮件更新服务条款，而用户继续使用服务就等于同意了新条款。具体案情是一家做蓝牙追踪器的公司 Tile，有人用他们的产品去跟踪别人，受害者要起诉，结果公司说，你看，我们在 2023 年 10 月给你发过邮件，更新了服务条款，里面写了所有争议都要通过仲裁解决，你之后还继续用了我们的 App，那就算你同意了。法院居然支持了这个说法。  你想想这意味着什么。评论区有个人写了一段话特别精彩，他说，允许企业单方面强制执行任意的服务条款...</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>HackerNews 八分日报 2026-03-28</title>
+      <link>https://pub-ad7b31b679344334b4391d5a9452db68.r2.dev/episodes/2026-03-28.mp3</link>
+      <description>&lt;p&gt;今天想从一个特别具体的东西聊起——内存条。就是你电脑里那一小片绿色的电路板。你可能很久没想过它了，因为这些年它越来越便宜，便宜到你觉得这是理所当然的事情。但今天 Hacker News 上有一篇文章，标题叫"紧握你的硬件"，它告诉你，这个理所当然的时代可能快要结束了。  故事是这样的。OpenAI 的 Stargate 项目每个月需要大约九十万片 DRAM 晶圆，占全球产能的百分之四十。到 2026 年，几家大型科技公司预计将消耗全球百分之七十的内存芯片产量。Micron 已经退出了消费市场，Western Digital 说 2026 年全部硬盘产能已经被预订光了，消费者只占它收入的百分之五...&lt;/p&gt;&lt;p&gt;&lt;a href="https://pub-ad7b31b679344334b4391d5a9452db68.r2.dev/episodes/2026-03-28.mp3"&gt;收听音频 (MP3)&lt;/a&gt;&lt;/p&gt;</description>
+      <pubDate>Sat, 28 Mar 2026 09:00:00 +0800</pubDate>
+      <guid isPermaLink="false">supertechfans-2026-03-28</guid>
+      <enclosure url="https://pub-ad7b31b679344334b4391d5a9452db68.r2.dev/episodes/2026-03-28.mp3" length="3657600" type="audio/mpeg" />
+      <itunes:duration>10:09</itunes:duration>
+      <itunes:summary>今天想从一个特别具体的东西聊起——内存条。就是你电脑里那一小片绿色的电路板。你可能很久没想过它了，因为这些年它越来越便宜，便宜到你觉得这是理所当然的事情。但今天 Hacker News 上有一篇文章，标题叫"紧握你的硬件"，它告诉你，这个理所当然的时代可能快要结束了。  故事是这样的。OpenAI 的 Stargate 项目每个月需要大约九十万片 DRAM 晶圆，占全球产能的百分之四十。到 2026 年，几家大型科技公司预计将消耗全球百分之七十的内存芯片产量。Micron 已经退出了消费市场，Western Digital 说 2026 年全部硬盘产能已经被预订光了，消费者只占它收入的百分之五...</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>HackerNews 八分日报 2026-04-01</title>
+      <link>https://pub-ad7b31b679344334b4391d5a9452db68.r2.dev/episodes/2026-04-01.mp3</link>
+      <description>&lt;p&gt;大家好，今天我们聊聊最近在 Hacker News 上刷屏的几条大新闻，看看技术背后藏着哪些文化的暗流。    先抛出一个小设问：我们常说技术是中性的，却总会在它的每一次迭代里映射出人性的光与影。今天的这几件事，正好把这种映射拉得清晰可见。    第一件事是 Anthropic 的 Claude Code 源码意外泄露。一个看似普通的 map 文件，却把“潜伏模式”“伙伴系统”等未发布功能全都曝光。技术层面，这暴露了他们的 anti‑distillation 机制：在 API 请求里偷偷塞入假工具，用来污染可能的模型蒸馏。听起来像是黑客的高招，却也是一场自我设防的“信息战争”。更有意思的是，这...&lt;/p&gt;&lt;p&gt;&lt;a href="https://pub-ad7b31b679344334b4391d5a9452db68.r2.dev/episodes/2026-04-01.mp3"&gt;收听音频 (MP3)&lt;/a&gt;&lt;/p&gt;</description>
+      <pubDate>Wed, 01 Apr 2026 09:00:00 +0800</pubDate>
+      <guid isPermaLink="false">supertechfans-2026-04-01</guid>
+      <enclosure url="https://pub-ad7b31b679344334b4391d5a9452db68.r2.dev/episodes/2026-04-01.mp3" length="2022912" type="audio/mpeg" />
+      <itunes:duration>5:37</itunes:duration>
+      <itunes:summary>大家好，今天我们聊聊最近在 Hacker News 上刷屏的几条大新闻，看看技术背后藏着哪些文化的暗流。    先抛出一个小设问：我们常说技术是中性的，却总会在它的每一次迭代里映射出人性的光与影。今天的这几件事，正好把这种映射拉得清晰可见。    第一件事是 Anthropic 的 Claude Code 源码意外泄露。一个看似普通的 map 文件，却把“潜伏模式”“伙伴系统”等未发布功能全都曝光。技术层面，这暴露了他们的 anti‑distillation 机制：在 API 请求里偷偷塞入假工具，用来污染可能的模型蒸馏。听起来像是黑客的高招，却也是一场自我设防的“信息战争”。更有意思的是，这...</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+  </channel>
+</rss>
