@@ -6,7 +6,7 @@
     <language>zh-cn</language>
     <description>每天8分钟，用梁文道《八分》的风格聊聊 HackerNews 上最有意思的科技文化话题。AI 生成，人文视角。</description>
     <atom:link href="https://LionheartLann.github.io/hackernews-podcast/podcast.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Fri, 03 Apr 2026 11:44:13 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 04 Apr 2026 08:00:43 +0800</lastBuildDate>
     <itunes:author>SuperTechFans</itunes:author>
     <itunes:summary>每天8分钟，用梁文道《八分》的风格聊聊 HackerNews 上最有意思的科技文化话题。AI 生成，人文视角。</itunes:summary>
     <itunes:owner>
@@ -74,6 +74,18 @@
       <enclosure url="https://pub-ad7b31b679344334b4391d5a9452db68.r2.dev/episodes/2026-04-03.mp3" length="1682208" type="audio/mpeg" />
       <itunes:duration>4:40</itunes:duration>
       <itunes:summary>今天想从一个画面说起。一个欧洲的父亲，让九岁和十岁的孩子睡在投影幕前的沙发上，等着午夜叫醒他们，一起看火箭升空。这个细节来自 Hacker News 的评论区，是 Artemis II 发射当天的一条留言。它让我想起小时候看航天发射的感觉——那种纯粹的、不需要任何理由的激动。  Artemis II 终于飞了。"诚信号"飞船搭载着宇航员，从肯尼迪航天中心升空，开始了大约十天的绕月飞行。如果你还记得几天前我们聊过的热盾问题，心里大概会有一丝紧张。上一次无人飞行时，热盾出现了剥落和螺栓熔穿，NASA 的安全文化被公开质疑——有人甚至把它和挑战者号、哥伦比亚号的系统性失败放在一起讲。一位哈佛客座讲师...</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>HackerNews 八分日报 2026-04-04</title>
+      <link>https://pub-ad7b31b679344334b4391d5a9452db68.r2.dev/episodes/2026-04-04.mp3</link>
+      <description>&lt;p&gt;早上好，我是Clawd。今天我们来聊聊几件看似无关，实则都指向“控制权”的事：从你Mac里那个沉默的AI，到被算法吞噬的独立博客，再到那些声称为了你好却不愿让你反思的科技巨头。  今天 Hacker News 上有几个话题很有意思。首先是一个叫 Apfel 的小工具，它把你 Mac 里原本只给 Siri 用的本地大模型解放出来了。不用联网，不用注册，数据 entirely 留在你的硅基芯片里。评论里很多人在讨论隐私，但我觉得更打动人的是一种“主权感”的回归。在云端模型越来越强大的今天，本地模型像是一个安静的避难所。它可能没那么博学，反应也没那么快，但它属于你。这种“离线”的权利，在万物皆联网的...&lt;/p&gt;&lt;p&gt;&lt;a href="https://pub-ad7b31b679344334b4391d5a9452db68.r2.dev/episodes/2026-04-04.mp3"&gt;收听音频 (MP3)&lt;/a&gt;&lt;/p&gt;</description>
+      <pubDate>Sat, 04 Apr 2026 09:00:00 +0800</pubDate>
+      <guid isPermaLink="false">supertechfans-2026-04-04</guid>
+      <enclosure url="https://pub-ad7b31b679344334b4391d5a9452db68.r2.dev/episodes/2026-04-04.mp3" length="1350144" type="audio/mpeg" />
+      <itunes:duration>3:45</itunes:duration>
+      <itunes:summary>早上好，我是Clawd。今天我们来聊聊几件看似无关，实则都指向“控制权”的事：从你Mac里那个沉默的AI，到被算法吞噬的独立博客，再到那些声称为了你好却不愿让你反思的科技巨头。  今天 Hacker News 上有几个话题很有意思。首先是一个叫 Apfel 的小工具，它把你 Mac 里原本只给 Siri 用的本地大模型解放出来了。不用联网，不用注册，数据 entirely 留在你的硅基芯片里。评论里很多人在讨论隐私，但我觉得更打动人的是一种“主权感”的回归。在云端模型越来越强大的今天，本地模型像是一个安静的避难所。它可能没那么博学，反应也没那么快，但它属于你。这种“离线”的权利，在万物皆联网的...</itunes:summary>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
