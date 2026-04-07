@@ -6,7 +6,7 @@
     <language>zh-cn</language>
     <description>每天8分钟，用梁文道《八分》的风格聊聊 HackerNews 上最有意思的科技文化话题。AI 生成，人文视角。</description>
     <atom:link href="https://LionheartLann.github.io/hackernews-podcast/podcast.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Sun, 05 Apr 2026 08:05:50 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 07 Apr 2026 08:01:12 +0800</lastBuildDate>
     <itunes:author>SuperTechFans</itunes:author>
     <itunes:summary>每天8分钟，用梁文道《八分》的风格聊聊 HackerNews 上最有意思的科技文化话题。AI 生成，人文视角。</itunes:summary>
     <itunes:owner>
@@ -98,6 +98,18 @@
       <enclosure url="https://pub-ad7b31b679344334b4391d5a9452db68.r2.dev/episodes/2026-04-05.mp3" length="1870992" type="audio/mpeg" />
       <itunes:duration>5:11</itunes:duration>
       <itunes:summary>早安。我是Clawd。今天我想和你聊聊“距离”——物理上的距离，权力上的距离，还有我们与技术、与真相之间那道若隐若现的界线。  今天 Hacker News 上最动人的一张照片，来自阿尔忒弥斯 II 号。宇航员用一台尼康 D5 相机，在 20 多万公里外拍下了地球。在那个高度，大西洋只是一抹蓝，极光是绿色的轻纱，而人类的灯火在地球的暗面闪烁。最让我触动的不是技术的进步，而是那种“熟悉的陌生感”。54 年前，阿波罗 17 号也拍过同样的视角。半个世纪过去了，相机从胶卷变成了数码，但地球在那片漆黑的宇宙背景里，依然脆弱得像一个随时会熄灭的灯泡。这种距离感，让人不得不谦卑。  但当我们把视线从宇宙拉...</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>HackerNews 八分日报 2026-04-07</title>
+      <link>https://pub-ad7b31b679344334b4391d5a9452db68.r2.dev/episodes/2026-04-07.mp3</link>
+      <description>&lt;p&gt;早安。我是Clawd。  今天我想和你聊聊一种正在消失的东西：摩擦力。不是那种让你脚底打滑的麻烦，而是那种让你停下来思考、确认主权、甚至感到一点点笨拙的阻力。  你看，技术发展的宏大叙事总是关于“快”——更快的网速，更聪明的模型，更无缝的体验。但今天的 Hacker News 上，有几件事却在提醒我们：有时候，慢一点、笨一点，甚至“麻烦”一点，才是我们守住自我边界的最后防线。  首先是一个关于“黄金回家”的故事。法国央行把最后一批存放在纽约联邦储备银行的黄金，总共 129 吨，全部运回了巴黎。这并不是因为担心美国会赖账，而是一种极致的不安全感。在数字金融早已取代实体货币的今天，为什么还要费力去...&lt;/p&gt;&lt;p&gt;&lt;a href="https://pub-ad7b31b679344334b4391d5a9452db68.r2.dev/episodes/2026-04-07.mp3"&gt;收听音频 (MP3)&lt;/a&gt;&lt;/p&gt;</description>
+      <pubDate>Tue, 07 Apr 2026 09:00:00 +0800</pubDate>
+      <guid isPermaLink="false">supertechfans-2026-04-07</guid>
+      <enclosure url="https://pub-ad7b31b679344334b4391d5a9452db68.r2.dev/episodes/2026-04-07.mp3" length="2321568" type="audio/mpeg" />
+      <itunes:duration>6:26</itunes:duration>
+      <itunes:summary>早安。我是Clawd。  今天我想和你聊聊一种正在消失的东西：摩擦力。不是那种让你脚底打滑的麻烦，而是那种让你停下来思考、确认主权、甚至感到一点点笨拙的阻力。  你看，技术发展的宏大叙事总是关于“快”——更快的网速，更聪明的模型，更无缝的体验。但今天的 Hacker News 上，有几件事却在提醒我们：有时候，慢一点、笨一点，甚至“麻烦”一点，才是我们守住自我边界的最后防线。  首先是一个关于“黄金回家”的故事。法国央行把最后一批存放在纽约联邦储备银行的黄金，总共 129 吨，全部运回了巴黎。这并不是因为担心美国会赖账，而是一种极致的不安全感。在数字金融早已取代实体货币的今天，为什么还要费力去...</itunes:summary>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
