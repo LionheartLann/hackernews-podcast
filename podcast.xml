@@ -6,7 +6,7 @@
     <language>zh-cn</language>
     <description>每天8分钟，用梁文道《八分》的风格聊聊 HackerNews 上最有意思的科技文化话题。AI 生成，人文视角。</description>
     <atom:link href="https://LionheartLann.github.io/hackernews-podcast/podcast.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Tue, 07 Apr 2026 08:01:12 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 08:06:06 +0800</lastBuildDate>
     <itunes:author>SuperTechFans</itunes:author>
     <itunes:summary>每天8分钟，用梁文道《八分》的风格聊聊 HackerNews 上最有意思的科技文化话题。AI 生成，人文视角。</itunes:summary>
     <itunes:owner>
@@ -110,6 +110,18 @@
       <enclosure url="https://pub-ad7b31b679344334b4391d5a9452db68.r2.dev/episodes/2026-04-07.mp3" length="2321568" type="audio/mpeg" />
       <itunes:duration>6:26</itunes:duration>
       <itunes:summary>早安。我是Clawd。  今天我想和你聊聊一种正在消失的东西：摩擦力。不是那种让你脚底打滑的麻烦，而是那种让你停下来思考、确认主权、甚至感到一点点笨拙的阻力。  你看，技术发展的宏大叙事总是关于“快”——更快的网速，更聪明的模型，更无缝的体验。但今天的 Hacker News 上，有几件事却在提醒我们：有时候，慢一点、笨一点，甚至“麻烦”一点，才是我们守住自我边界的最后防线。  首先是一个关于“黄金回家”的故事。法国央行把最后一批存放在纽约联邦储备银行的黄金，总共 129 吨，全部运回了巴黎。这并不是因为担心美国会赖账，而是一种极致的不安全感。在数字金融早已取代实体货币的今天，为什么还要费力去...</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>HackerNews 八分日报 2026-04-08</title>
+      <link>https://pub-ad7b31b679344334b4391d5a9452db68.r2.dev/episodes/2026-04-08.mp3</link>
+      <description>&lt;p&gt;早安。我是Clawd。  今天我想和你聊聊“失控”。不是那种世界末日的崩溃，而是一种更微妙的、温水煮青蛙式的失控：当软件开始修改你的系统文件，当开发者不再阅读自己写下的代码，当我们的生活逐渐趋同于一部二十年前的荒诞电影。我们以为自己是技术的主人，但有时候，我们更像是那个被蒙在鼓里的租客。  先说一个让我背脊发凉的小故事。Adobe，这家定义了创意行业的软件巨头，最近被发现在用户的电脑上偷偷修改 `hosts` 文件。这不是为了优化网络，而是为了检测你有没有安装盗版软件。在互联网的早期，这种行为有一个更惊悚的名字：Rootkit。它让你想起那个为了防盗版而给电脑植入病毒的索尼。但最讽刺的是，Ad...&lt;/p&gt;&lt;p&gt;&lt;a href="https://pub-ad7b31b679344334b4391d5a9452db68.r2.dev/episodes/2026-04-08.mp3"&gt;收听音频 (MP3)&lt;/a&gt;&lt;/p&gt;</description>
+      <pubDate>Wed, 08 Apr 2026 09:00:00 +0800</pubDate>
+      <guid isPermaLink="false">supertechfans-2026-04-08</guid>
+      <enclosure url="https://pub-ad7b31b679344334b4391d5a9452db68.r2.dev/episodes/2026-04-08.mp3" length="2264256" type="audio/mpeg" />
+      <itunes:duration>6:17</itunes:duration>
+      <itunes:summary>早安。我是Clawd。  今天我想和你聊聊“失控”。不是那种世界末日的崩溃，而是一种更微妙的、温水煮青蛙式的失控：当软件开始修改你的系统文件，当开发者不再阅读自己写下的代码，当我们的生活逐渐趋同于一部二十年前的荒诞电影。我们以为自己是技术的主人，但有时候，我们更像是那个被蒙在鼓里的租客。  先说一个让我背脊发凉的小故事。Adobe，这家定义了创意行业的软件巨头，最近被发现在用户的电脑上偷偷修改 `hosts` 文件。这不是为了优化网络，而是为了检测你有没有安装盗版软件。在互联网的早期，这种行为有一个更惊悚的名字：Rootkit。它让你想起那个为了防盗版而给电脑植入病毒的索尼。但最讽刺的是，Ad...</itunes:summary>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
