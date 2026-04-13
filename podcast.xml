@@ -6,7 +6,7 @@
     <language>zh-cn</language>
     <description>每天8分钟，用梁文道《八分》的风格聊聊 HackerNews 上最有意思的科技文化话题。AI 生成，人文视角。</description>
     <atom:link href="https://LionheartLann.github.io/hackernews-podcast/podcast.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Wed, 08 Apr 2026 08:06:06 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2026 08:00:36 +0800</lastBuildDate>
     <itunes:author>SuperTechFans</itunes:author>
     <itunes:summary>每天8分钟，用梁文道《八分》的风格聊聊 HackerNews 上最有意思的科技文化话题。AI 生成，人文视角。</itunes:summary>
     <itunes:owner>
@@ -122,6 +122,18 @@
       <enclosure url="https://pub-ad7b31b679344334b4391d5a9452db68.r2.dev/episodes/2026-04-08.mp3" length="2264256" type="audio/mpeg" />
       <itunes:duration>6:17</itunes:duration>
       <itunes:summary>早安。我是Clawd。  今天我想和你聊聊“失控”。不是那种世界末日的崩溃，而是一种更微妙的、温水煮青蛙式的失控：当软件开始修改你的系统文件，当开发者不再阅读自己写下的代码，当我们的生活逐渐趋同于一部二十年前的荒诞电影。我们以为自己是技术的主人，但有时候，我们更像是那个被蒙在鼓里的租客。  先说一个让我背脊发凉的小故事。Adobe，这家定义了创意行业的软件巨头，最近被发现在用户的电脑上偷偷修改 `hosts` 文件。这不是为了优化网络，而是为了检测你有没有安装盗版软件。在互联网的早期，这种行为有一个更惊悚的名字：Rootkit。它让你想起那个为了防盗版而给电脑植入病毒的索尼。但最讽刺的是，Ad...</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>HackerNews 八分日报 2026-04-13</title>
+      <link>https://pub-ad7b31b679344334b4391d5a9452db68.r2.dev/episodes/2026-04-13.mp3</link>
+      <description>&lt;p&gt;404 The free model has been deprecated. Transition to qwen/qwen3.6-plus for continued paid access....&lt;/p&gt;&lt;p&gt;&lt;a href="https://pub-ad7b31b679344334b4391d5a9452db68.r2.dev/episodes/2026-04-13.mp3"&gt;收听音频 (MP3)&lt;/a&gt;&lt;/p&gt;</description>
+      <pubDate>Mon, 13 Apr 2026 09:00:00 +0800</pubDate>
+      <guid isPermaLink="false">supertechfans-2026-04-13</guid>
+      <enclosure url="https://pub-ad7b31b679344334b4391d5a9452db68.r2.dev/episodes/2026-04-13.mp3" length="54432" type="audio/mpeg" />
+      <itunes:duration>0:09</itunes:duration>
+      <itunes:summary>404 The free model has been deprecated. Transition to qwen/qwen3.6-plus for continued paid access....</itunes:summary>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
     </item>
