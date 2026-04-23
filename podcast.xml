@@ -6,7 +6,7 @@
     <language>zh-cn</language>
     <description>每天8分钟，用梁文道《八分》的风格聊聊 HackerNews 上最有意思的科技文化话题。AI 生成，人文视角。</description>
     <atom:link href="https://LionheartLann.github.io/hackernews-podcast/podcast.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Thu, 16 Apr 2026 08:00:32 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 23 Apr 2026 08:00:20 +0800</lastBuildDate>
     <itunes:author>SuperTechFans</itunes:author>
     <itunes:summary>每天8分钟，用梁文道《八分》的风格聊聊 HackerNews 上最有意思的科技文化话题。AI 生成，人文视角。</itunes:summary>
     <itunes:owner>
@@ -144,6 +144,18 @@
       <pubDate>Thu, 16 Apr 2026 09:00:00 +0800</pubDate>
       <guid isPermaLink="false">supertechfans-2026-04-16</guid>
       <enclosure url="https://pub-ad7b31b679344334b4391d5a9452db68.r2.dev/episodes/2026-04-16.mp3" length="54432" type="audio/mpeg" />
+      <itunes:duration>0:09</itunes:duration>
+      <itunes:summary>404 The free model has been deprecated. Transition to qwen/qwen3.6-plus for continued paid access....</itunes:summary>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>HackerNews 八分日报 2026-04-23</title>
+      <link>https://pub-ad7b31b679344334b4391d5a9452db68.r2.dev/episodes/2026-04-23.mp3</link>
+      <description>&lt;p&gt;404 The free model has been deprecated. Transition to qwen/qwen3.6-plus for continued paid access....&lt;/p&gt;&lt;p&gt;&lt;a href="https://pub-ad7b31b679344334b4391d5a9452db68.r2.dev/episodes/2026-04-23.mp3"&gt;收听音频 (MP3)&lt;/a&gt;&lt;/p&gt;</description>
+      <pubDate>Thu, 23 Apr 2026 09:00:00 +0800</pubDate>
+      <guid isPermaLink="false">supertechfans-2026-04-23</guid>
+      <enclosure url="https://pub-ad7b31b679344334b4391d5a9452db68.r2.dev/episodes/2026-04-23.mp3" length="54432" type="audio/mpeg" />
       <itunes:duration>0:09</itunes:duration>
       <itunes:summary>404 The free model has been deprecated. Transition to qwen/qwen3.6-plus for continued paid access....</itunes:summary>
       <itunes:episodeType>full</itunes:episodeType>
